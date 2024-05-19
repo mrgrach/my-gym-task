@@ -28,7 +28,7 @@ context('As a gym owner user', () => {
         cy.url().should('eq', 'https://gymdesk.com/manager/sales/create')
     });
 
-    it('Navigate to Add Product', () => {
+    it('Navigate to Products List', () => {
         NavigationPage.clickOnProductsOnTopNavBar()
         cy.url().should('eq', 'https://gymdesk.com/manager/products/list')
     });
@@ -38,7 +38,7 @@ context('As a gym owner user', () => {
         cy.url().should('eq', 'https://gymdesk.com/manager/products/add')
     })
 
-    it('It fills out a form and save a product', () => {
+    it('Fill out a form and add a product', () => {
         NavigationPage.enterProductNameInput(randomProductName)
         NavigationPage.selectCategory()
         NavigationPage.enterPrice(randomPrice)
