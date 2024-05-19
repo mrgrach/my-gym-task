@@ -10,3 +10,6 @@ well-rationalized approach to prioritizing what you choose to deliver.
 Please provide the solution as a zipped Git repository, with any relevant instructions for
 executing the test in a file named INSTRUCTIONS.md. An incremental commit history that
 communicates your steps, and shows good version control, would be considered a plus.
+
+# My test results
+<img width="716" alt="Screenshot 2024-05-19 at 13 56 13" src="https://github.com/mrgrach/my-gym-task/assets/51764148/1fa3fccd-d40c-4f10-8f0b-74da868ce3ff">
