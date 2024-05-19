@@ -161,6 +161,7 @@
     "universalify": "^2.0.1",
     "untildify": "^4.0.0",
     "url-parse": "^1.5.10",
+    "util": "^0.12.5",
     "uuid": "^8.3.2",
     "verror": "^1.10.0",
     "which": "^2.0.2",
