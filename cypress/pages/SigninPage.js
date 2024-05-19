@@ -11,30 +11,30 @@ export default class SigninPage {
         return cy.get('input[name="email"]')
     };
       
-    static enterEmail(email) {
-        this.getEmail().clear().type(email);
-    }
-
     static getPassword() {
         return cy.get('input[name="password"]')
     };
       
-    static enterPassword(password) {
-        this.getPassword().clear().type(password);
-    }
-
     static getSignin() {
         return cy.get('button[type=submit]').contains('Sign-in');
     }
 
-    static clickSignin() {
-        this.getSignin().click();
-    }
 /******************** End Objects **************************/
 
 /********************************************************/
 /******************** Interactions **********************/
 /********************************************************/
+    static enterEmail(email) {
+        this.getEmail().clear().type(email);
+    }
+
+    static enterPassword(password) {
+        this.getPassword().clear().type(password);
+    }
+
+    static clickSignin() {
+        this.getSignin().click();
+    }
 
     static login(email, password) {
         this.visitUrl();
